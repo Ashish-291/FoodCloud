@@ -1,0 +1,9 @@
+
+form input{
+    align-items: center;
+    width: 500px;
+    margin-top: 3px;
+}
+textarea{
+    width: 500px;
+}

@@ -1,0 +1,20 @@
+.row h3{
+   font-style: italic;
+   font-weight:700;
+}
+.row p{
+    font-weight: 600;
+}
+.row img{
+    border-radius: 10px;
+}
+form input{
+    
+    text-decoration: none;
+    margin-bottom: 3px;
+}
+.back{
+    text-decoration: none;
+    background-color: black;
+    color:white;
+}

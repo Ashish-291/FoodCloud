@@ -1,0 +1,28 @@
+
+<div class="container mt-5 mb-5">
+
+
+    <div class="row">
+        <div class="col-md-6" *ngIf="menuData">
+            <img src="{{menuData[0].foodImg}}" width="400px" height="350px">
+            <h3> {{menuData[0].foodName}}</h3>
+            <p> {{menuData[0].foodPrice | currency:"INR"}}</p>
+        </div>
+
+
+        <div class="col-md-6">
+            <div class="details">
+                <h3>Enter Your Details</h3>
+
+                <form>
+                    <input type="text" class="form-control" placeholder="enter full name">
+                    <input type="tel" class="form-control" placeholder="enter mobile number">
+                    <textarea type="text" class="form-control" placeholder="enter your address"></textarea>
+
+                </form>
+                <button class="btn btn-md btn-dark mt-3">Place order</button>
+                <button class="btn btn-md btn-dark mt-3 ms-2" routerLink="../../menu">Back</button>
+            </div>
+        </div>
+    </div>
+</div>
